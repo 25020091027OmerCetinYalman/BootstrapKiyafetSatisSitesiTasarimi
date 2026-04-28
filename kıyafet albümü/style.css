@@ -1,0 +1,37 @@
+/* Genel sayfa ayarları */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa; /* Hafif gri, göz yormayan arka plan */
+}
+
+/* Ürün resimleri için standart ayar */
+.card-img-top {
+    object-fit: cover;
+    height: 300px;
+}
+
+/* Kartların genel duruşu */
+.custom-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden; /* Resimlerin taşmasını önler */
+}
+
+/* Kartın üzerine gelince (Hover) efekti */
+.custom-card:hover {
+    transform: translateY(-10px); /* Kart yukarı doğru süzülür */
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1) !important;
+}
+
+/* Ürün resminin üzerine gelince hafif büyümesi */
+.custom-card img {
+    transition: transform 0.5s ease;
+}
+
+.custom-card:hover img {
+    transform: scale(1.05); /* Resim hafifçe yaklaşır */
+}
+
+/* Fiyat ve başlıkların rengini markaya uygun yapalım */
+.card-title {
+    color: #1a1a1a;
+}

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZİRVE GİYİM | Premium Erkek Modası</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header data-bs-theme="dark">
+  <div class="collapse text-bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 py-4">
+          <h4>Zirve Giyim Hakkında</h4>
+          <p class="text-body-secondary">Kalitenin en üst noktası. Modern erkeğin gardırobunu yeniden inşa ediyoruz.</p>
+        </div>
+        <div class="col-sm-4 py-4">
+          <h4>İletişim</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white text-decoration-none">Instagram</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Müşteri Hizmetleri</a></li>
+          </ul>
+        </div>
+      </div>
+ </div> </div>  <div class="navbar navbar-dark bg-dark shadow-sm">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div id="authArea"></div>  <a href="#" class="navbar-brand d-flex align-items-center">
+      <i class="bi bi-award-fill me-2 text-warning"></i>
+      <strong>ZİRVE GİYİM</strong>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</div>
+</header> 
+
+<main>
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <h1 class="fw-bold display-2 text-dark">ZİRVE: Kalitenin İmzası</h1>
+        <p class="lead text-secondary">Seçkin kumaşlar, kusursuz kesimler. Tarzınızı en üst noktaya taşıyın.</p>
+        <p>
+          <a href="#koleksiyon" class="btn btn-dark px-5 py-3 rounded-0">YENİ SEZONU KEŞFET</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-body-tertiary" id="koleksiyon">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+        
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0 custom-card">
+            <img src="img/ceket.jpg" class="card-img-top" alt="Ceket">
+            <div class="card-body">
+              <h6 class="fw-bold">Premium Deri Ceket</h6>
+              <p class="card-text text-muted small">İtalyan kesim, hakiki deri.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold">3.450 TL</span>
+                <button class="btn btn-sm btn-dark rounded-0" onclick="sepeteEkle('Premium Deri Ceket', '3.450 TL', 'img/ceket.jpg')" data-bs-toggle="offcanvas" data-bs-target="#sepetPaneli"><i class="bi bi-cart"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0 custom-card">
+            <img src="img/kot1.jpg" class="card-img-top" alt="Kot">
+            <div class="card-body">
+              <h6 class="fw-bold">Raw Denim Jean</h6>
+              <p class="card-text text-muted small">Koyu yıkama, dayanıklı doku.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold">1.250 TL</span>
+                <button class="btn btn-sm btn-dark rounded-0" onclick="sepeteEkle('Raw Denim Jean', '1.250 TL', 'img/kot1.jpg')" data-bs-toggle="offcanvas" data-bs-target="#sepetPaneli"><i class="bi bi-cart"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0 custom-card">
+            <img src="img/kot2.jpg" class="card-img-top" alt="Kot">
+            <div class="card-body">
+              <h6 class="fw-bold">Slim-Fit Açık Mavi Jean</h6>
+              <p class="card-text text-muted small">Esnek kumaş, günlük konfor.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold">1.100 TL</span>
+                <button class="btn btn-sm btn-dark rounded-0" onclick="sepeteEkle('Slim-Fit Açık Mavi Jean','1.100 TL','img/kot2.jpg')" data-bs-toggle="offcanvas" data-bs-target="#sepetPaneli"><i class="bi bi-cart"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0 custom-card">
+            <img src="img/gomlek.jpg" class="card-img-top" alt="Gömlek">
+            <div class="card-body">
+              <h6 class="fw-bold">Oxford Beyaz Gömlek</h6>
+              <p class="card-text text-muted small">%100 Pamuk, ütü istemez.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold">950 TL</span>
+                <button class="btn btn-sm btn-dark rounded-0" onclick="sepeteEkle('Oxford Beyaz Gömlek','950 TL','img/gomlek.jpg')" data-bs-toggle="offcanvas" data-bs-target="#sepetPaneli"><i class="bi bi-cart"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0 custom-card">
+            <img src="img/sweat.jpg" class="card-img-top" alt="Sweat">
+            <div class="card-body">
+              <h6 class="fw-bold">Oversize Siyah Hoodie</h6>
+              <p class="card-text text-muted small">Yüksek gramajlı kumaş.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold">850 TL</span>
+                <button class="btn btn-sm btn-dark rounded-0" onclick="sepeteEkle('Oversize Siyah Hoodie','850 TL','img/sweat.jpg')" data-bs-toggle="offcanvas" data-bs-target="#sepetPaneli"><i class="bi bi-cart"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0 custom-card">
+            <img src="img/ayakkabi.jpg" class="card-img-top" alt="Ayakkabı">
+            <div class="card-body">
+              <h6 class="fw-bold">Urban Sneaker</h6>
+              <p class="card-text text-muted small">Gerçek deri detaylı taban.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold">2.200 TL</span>
+                <button class="btn btn-sm btn-dark rounded-0" onclick="sepeteEkle('Urban Sneaker','2.200 TL','img/ayakkabi.jpg')" data-bs-toggle="offcanvas" data-bs-target="#sepetPaneli"><i class="bi bi-cart"></i></button>
+              </div>
+            </div>
+       </div> </div> </main>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="sepetPaneli" aria-labelledby="sepetLabel">
+      <div class="offcanvas-header border-bottom">
+        <h5 class="offcanvas-title fw-bold" id="sepetLabel">SEPETİNİZ</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body d-flex flex-column">
+       <div id="sepetListesi"class="flex-grow-1">
+   </div>
+    
+ <div class="mt-auto pt-3 border-top">
+          <div class="d-flex justify-content-between fs-5 fw-bold mb-3">
+            <span>TOPLAM:</span>
+            <span id="toplamTutar">0 TL</span>
+          </div>
+ <button class="btn btn-dark w-100 py-3 rounded-0 fw-bold mt-3" data-bs-toggle="modal" data-bs-target="#odemeModal">ÖDEMEYE GEÇ</button>
+      </div>
+      </div> </div> ```
+
+<script>
+let sepet = [];
+
+function sepeteEkle(ad, fiyat, resim) {
+    // Fiyatı daha güvenli bir şekilde sayıya çevirelim
+    // Önce " TL" kısmını atıyoruz, sonra tüm noktaları (varsa) temizliyoruz
+    let temizFiyat = fiyat.replace(' TL', '').split('.').join('');
+    let sayisalFiyat = parseInt(temizFiyat);
+
+    // Ürün sepette zaten var mı kontrol et
+    const varolanUrun = sepet.find(item => item.ad === ad);
+
+    if (varolanUrun) {
+        // Varsa sadece adetini artır
+        varolanUrun.adet += 1;
+    } else {
+        // Yoksa yeni ürün olarak ekle (adet: 1 ile başla)
+        sepet.push({ ad, fiyat: sayisalFiyat, resim, adet: 1 });
+    }
+    
+    sepetiGuncelle();
+}
+
+function sepettenCikar(ad) {
+    // Ürünü listeden tamamen sil
+    sepet = sepet.filter(item => item.ad !== ad);
+    sepetiGuncelle();
+}
+
+function sepetiGuncelle() {
+    const liste = document.getElementById('sepetListesi');
+    const toplamAlan = document.getElementById('toplamTutar');
+    liste.innerHTML = '';
+    let genelToplam = 0;
+
+    sepet.forEach((urun) => {
+        let urunToplam = urun.fiyat * urun.adet;
+        genelToplam += urunToplam;
+
+        liste.innerHTML += `
+            <div class="d-flex align-items-center mb-3 pb-3 border-bottom">
+                <img src="${urun.resim}" style="width: 60px; height: 60px; object-fit: cover;" class="me-3">
+                <div class="flex-grow-1">
+                    <h6 class="mb-0 fw-bold small">${urun.ad}</h6>
+                    <div class="text-muted small">${urun.fiyat.toLocaleString('tr-TR')} TL x ${urun.adet}</div>
+                    <div class="fw-bold text-dark">${urunToplam.toLocaleString('tr-TR')} TL</div>
+                </div>
+                <button class="btn btn-sm text-danger" onclick="sepettenCikar('${urun.ad}')">
+                    <i class="bi bi-trash"></i>
+                </button>
+            </div>
+        `;
+    });
+
+    toplamAlan.innerText = genelToplam.toLocaleString('tr-TR') + " TL";
+
+    
+    if (sepet.length === 0) {
+        liste.innerHTML = '<p class="text-muted text-center mt-5">Sepetiniz şu an boş.</p>';
+    }
+}
+</script>
+<div class="modal fade" id="userModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content rounded-0">
+      <div class="modal-body p-0">
+        <ul class="nav nav-tabs nav-justified border-0" id="userTab" role="tablist">
+          <li class="nav-item">
+            <button class="nav-link active fw-bold py-3 rounded-0 text-dark border-0" id="login-tab" data-bs-toggle="tab" data-bs-target="#loginView" type="button">GİRİŞ YAP</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link fw-bold py-3 rounded-0 text-dark border-0" id="register-tab" data-bs-toggle="tab" data-bs-target="#registerView" type="button">KAYIT OL</button>
+          </li>
+        </ul>
+        
+        <div class="tab-content p-4" id="userTabContent">
+          <div class="tab-pane fade show active" id="loginView">
+            <form onsubmit="event.preventDefault(); loginControl();">
+              <div class="mb-3">
+                <label class="form-label small fw-bold">E-POSTA</label>
+                <input type="email" id="loginEmail" class="form-control rounded-0" required>
+              </div>
+              <div class="mb-3">
+                <label class="form-label small fw-bold">ŞİFRE</label>
+                <input type="password" id="loginPass" class="form-control rounded-0" required>
+              </div>
+              <button type="submit" class="btn btn-dark w-100 rounded-0 py-2">OTURUM AÇ</button>
+            </form>
+          </div>
+          
+         
+          <div class="tab-pane fade" id="registerView">
+            <form onsubmit="event.preventDefault(); registerControl();">
+              <div class="mb-3">
+                <label class="form-label small fw-bold">AD SOYAD</label>
+                <input type="text" id="regName" class="form-control rounded-0" required>
+              </div>
+              <div class="mb-3">
+                <label class="form-label small fw-bold">E-POSTA</label>
+                <input type="email" id="regEmail" class="form-control rounded-0" required>
+              </div>
+              <div class="mb-3">
+                <label class="form-label small fw-bold">ŞİFRE</label>
+                <input type="password" id="regPass" class="form-control rounded-0" required>
+              </div>
+              <button type="submit" class="btn btn-dark w-100 rounded-0 py-2">KAYIT OL</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+// Kullanıcı bilgilerini tarayıcıda geçici tutalım
+let currentUser = null;
+
+function registerControl() {
+    const name = document.getElementById('regName').value;
+    const email = document.getElementById('regEmail').value;
+    const pass = document.getElementById('regPass').value;
+
+    // Basit bir kayıt simülasyonu
+    localStorage.setItem('userEmail', email);
+    localStorage.setItem('userPass', pass);
+    localStorage.setItem('userName', name);
+
+    alert("Kayıt başarılı! Şimdi giriş yapabilirsiniz.");
+    // Kayıt sonrası otomatik Giriş sekmesine atar
+    const loginTab = new bootstrap.Tab(document.getElementById('login-tab'));
+    loginTab.show();
+}
+
+function loginControl() {
+    const email = document.getElementById('loginEmail').value;
+    const pass = document.getElementById('loginPass').value;
+
+    // Kayıtlı bilgilerle karşılaştır
+    if (email === localStorage.getItem('userEmail') && pass === localStorage.getItem('userPass')) {
+        currentUser = localStorage.getItem('userName');
+        updateUI();
+        
+        // Modalı kapat
+        const modalElement = document.getElementById('userModal');
+        const modal = bootstrap.Modal.getInstance(modalElement);
+        modal.hide();
+    } else {
+        alert("E-posta veya şifre hatalı!");
+    }
+}
+
+function logout() {
+    currentUser = null;
+    updateUI();
+}
+
+function updateUI() {
+    const authArea = document.getElementById('authArea');
+    if (currentUser) {
+        authArea.innerHTML = `
+            <span class="text-white small me-3 fw-bold">Merhaba, ${currentUser.toUpperCase()}</span>
+            <button class="btn btn-outline-danger btn-sm rounded-0 py-1" onclick="logout()">Çıkış</button>
+        `;
+    } else {
+        authArea.innerHTML = `
+            <button class="btn btn-outline-light btn-sm rounded-0 border-0 me-2" data-bs-toggle="modal" data-bs-target="#userModal">
+                Giriş / Kayıt
+            </button>
+        `;
+    }
+}
+
+updateUI(); // Sayfa açılınca butonun görünmesi için tetikleyici
+</script> 
+<div class="modal fade" id="odemeModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content rounded-0">
+          <div class="modal-header border-0">
+            <h5 class="modal-title fw-bold">ÖDEME BİLGİLERİ</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body px-4 pb-4">
+            <div class="row g-4">
+              <div class="col-md-6">
+                <h6 class="fw-bold mb-3">Teslimat Adresi</h6>
+                <input type="text" class="form-control rounded-0 mb-2" placeholder="Ad Soyad">
+                <input type="text" class="form-control rounded-0 mb-2" placeholder="Telefon">
+                <textarea class="form-control rounded-0" rows="3" placeholder="Açık Adres"></textarea>
+              </div>
+              <div class="col-md-6">
+                <h6 class="fw-bold mb-3">Kart Bilgileri</h6>
+                <input type="text" class="form-control rounded-0 mb-2" placeholder="Kart Üzerindeki İsim">
+                <input type="text" class="form-control rounded-0 mb-2" placeholder="Kart Numarası">
+                <div class="row g-2">
+                  <div class="col-6"><input type="text" class="form-control rounded-0" placeholder="AA/YY"></div>
+                  <div class="col-6"><input type="text" class="form-control rounded-0" placeholder="CVV"></div>
+                </div>
+                <button class="btn btn-success w-100 mt-4 py-2 rounded-0 fw-bold">ÖDEMEYİ ONAYLA</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+</body>
+</html>
